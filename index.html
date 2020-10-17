@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anime Search</title>
+</head>
+
+<body>
+  <div class="animeSearch">
+    <h1>Anime Search</h1>
+    <p>Search for anime in the bar below. The media type (TV/Movie/OVA/etc.) will
+      be listed before the anime title. Not all data will be complete, especially in the
+      case of animes that have not finished airing.</p>
+    <form>
+      <label>Search for Anime</label>
+      <input id="animeInput" type="text"></input><br/>
+      <label>Maximum Content Rating</label>
+      <select id="maxRating">
+        <option value="R">R</option>
+        <option value="PG-13">PG-13</option>
+        <option value="PG">PG</option>
+        <option value="G">G</option>
+      </select><br/>
+      <input id="animeSubmit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+  <div id="animeResults">
+
+  </div>
+
+  <hr>
+
+  <a href="https://github.com/ArcaneNrok/creative-project-2" style="margin:20px">Github Link</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+</body>
+
+</html>
